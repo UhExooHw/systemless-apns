@@ -1,6 +1,6 @@
 # Systemless Apns
 
-`Systemless Apns` is a required component for the [SIM Spoof](https://github.com/UhExooHw/sim-spoof) utility.
+Systemless Apns is a required component for the [SIM Spoof](https://github.com/UhExooHw/sim-spoof) utility.
 
 ## Third-Party Components
 
