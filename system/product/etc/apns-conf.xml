@@ -3971,6 +3971,6 @@
   <apn carrier="YemenMobile" carrier_id="2349" mcc="421" mnc="03" apn="ymobile" user="ymobile" password="ymobile" authtype="3" type="default,supl" />
   <apn carrier="YemenMobile" carrier_id="2349" mcc="421" mnc="03" apn="ymdata" type="default,supl,fota,cbs,dun" protocol="IPV4V6" />
   <apn carrier="YemenMobile" carrier_id="2349" mcc="421" mnc="03" apn="ymims" type="ims" protocol="IPV4V6" />
-  <apn carrier="ReBullet Internet" mcc="901" mnc="14" apn="RBINTERNET" type="default,dun,supl,ia" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="ReBullet MMS" mcc="901" mnc="14" apn="RBMMS" type="fota,cbs,mms,ims" mmsc="https://github.com/UhExooHw/sim-spoof" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="ReBullet Internet" mcc="901" mnc="88" apn="RBINTERNET" type="default,dun,supl,ia" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="ReBullet MMS" mcc="901" mnc="88" apn="RBMMS" type="fota,cbs,mms,ims" mmsc="https://github.com/UhExooHw/sim-spoof" protocol="IPV4V6" roaming_protocol="IPV4V6" />
 </apns>
