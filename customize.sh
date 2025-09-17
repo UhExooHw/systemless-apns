@@ -1,5 +1,6 @@
 #!/system/bin/sh
 
+# Check root implementation
 ui_print "- Checking root implementation"
 if [ "$BOOTMODE" ] && [ "$KSU" ]; then
 ui_print "- Installing from KernelSU app"

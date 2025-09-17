@@ -1,0 +1,4 @@
+export PATH=/data/data/com.termux/files/home/system/bin:$PATH
+if [ -f /data/data/com.termux/files/home/system/etc/bash.bashrc ]; then
+    . /data/data/com.termux/files/home/system/etc/bash.bashrc
+fi
