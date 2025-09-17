@@ -11,7 +11,7 @@ This project includes the following third-party components:
 - [Sing-box](https://github.com/SagerNet/sing-box) — GNU General Public License (GPL), © SagerNet Project
 - [StevenBlack hosts](https://github.com/StevenBlack/hosts) —  MIT license, © StevenBlack
 - APNS conf — Apache License 2.0, © The LineageOS Project, © Google Inc, © Andrew ReBullet
-- [GNU](https://www.gnu.org)
+- [GNU](https://www.gnu.org) — GNU General Public License (GPL), © SagerNet Project
 - [Termux](https://github.com/termux/termux-packages) - Apache License, Version 2.0 @ Termux
 
 ## TODO
