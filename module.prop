@@ -1,6 +1,6 @@
-id=systemless-apns
-name=Systemless APNs
-version=1.0-000000
-versionCode=100
+id=systemless-utils
+name=Systemless Utils
+version=1.1-000000
+versionCode=110
 author=andrewrebullet
 description=Advanced SIM spoofing utility for Android. 
