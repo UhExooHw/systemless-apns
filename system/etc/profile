@@ -1,4 +1,4 @@
-export PATH=/data/data/com.termux/files/home/system/bin:$PATH
-if [ -f /data/data/com.termux/files/home/system/etc/bash.bashrc ]; then
-    . /data/data/com.termux/files/home/system/etc/bash.bashrc
+export PATH=/system/etc:$PATH
+if [ -f /system/etc/bash.bashrc ]; then
+    . /system/etc/bash.bashrc
 fi
