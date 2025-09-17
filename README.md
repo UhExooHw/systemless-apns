@@ -13,5 +13,4 @@ This project includes the following third-party components:
 - APNS conf — Apache License 2.0, © The LineageOS Project, © Google Inc, © Andrew ReBullet
 
 ## TODO
-* Bash
 * Services for mihomo, xray, sing-box
