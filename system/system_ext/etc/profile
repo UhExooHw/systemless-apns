@@ -1,0 +1,6 @@
+export PATH=/system_ext/bin:$PATH
+export TERMINFO=/system_ext/etc/terminfo
+if [ -f /system_ext/etc/bash/bashrc ]; then
+    . /system_ext/etc/bash/bashrc
+fi
+export TERMINFO=/system_ext/etc/terminfo

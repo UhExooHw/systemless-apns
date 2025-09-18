@@ -1,4 +1,0 @@
-export PATH=/system/etc:$PATH
-if [ -f /system/etc/bash.bashrc ]; then
-    . /system/etc/bash.bashrc
-fi
