@@ -1,21 +1,8 @@
-#!/system/bin/sh
+#!/bin/sh
 
-# Check root implementation
-ui_print "- Checking root implementation"
-if [ "$BOOTMODE" ] && [ "$KSU" ]; then
-ui_print "- Installing from KernelSU app"
-ui_print "   KernelSU version: $KSU_KERNEL_VER_CODE (kernel) + $KSU_VER_CODE (ksud)"
-if [ "$(which magisk)" ]; then
-ui_print "   Multiple root implementation is NOT supported"
-abort    "   Aborting!"
+if ! grep -q sdcardfs /proc/filesystems >/dev/null 2>&1; then
+	if [ "$KSU_MAGIC_MOUNT" = "true" ] || [ "$APATCH_BIND_MOUNT" = "true" ] || { [ -f /data/adb/magisk/magisk ] && [ -z "$KSU" ] && [ -z "$APATCH" ]; }; then
+	ui_print '[!] This module is not compatible to magic mount managers!'
+  	abort "Tip: Enable OverlayFS in Managers settings"
+	fi
 fi
-elif [ "$BOOTMODE" ] && [ "$MAGISK_VER_CODE" ]; then
-ui_print "- Installing from Magisk app"
-else
-ui_print "   Installation from recovery is NOT supported"
-ui_print "   Please install from Magisk / KernelSU app"
-abort    "   Aborting!"
-fi
-
-ui_print "- Patching hosts file"
-ui_print "- APNs config file"
